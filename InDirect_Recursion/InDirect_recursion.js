@@ -20,4 +20,5 @@ function buy(){
     }
     
     buyApple(money);
+    
 }
