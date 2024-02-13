@@ -8,7 +8,6 @@
 // let data =0;
 // printNum(data);
 
-
 //find Factorial using recursion
 document.write(`Recursion <br>`)
 document.write(`Find factorial without using loop <br>`)
@@ -24,6 +23,5 @@ function findFactorial(){
         return x*factorial(x-1);
     }
     alert(`${num}! = ${factorial(num)}`)
-    
-    
+      
 }
