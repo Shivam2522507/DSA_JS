@@ -22,7 +22,7 @@ class Queue {
     }
     dequeue(){
         if(this.currentSize != 0){
-            this.items[this.rear] = null;
+            this.items[this.front] = null;
             if(this.rear = this.max-1){
                 this.front = 0;
             }else{
@@ -38,4 +38,7 @@ class Queue {
     }
 }
 
+function display(){
+    console.warn(queue);
+}
 let queue = new Queue(5)
